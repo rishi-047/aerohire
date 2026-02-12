@@ -1,0 +1,85 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3325 >>
+stream
+BT
+/F1 9.5 Tf
+0 g
+1 0 0 1 42 760 Tm (03 DIFFERENTIATORS WITH COMPARISON) Tj
+1 0 0 1 42 747.5 Tm (==================================) Tj
+1 0 0 1 42 735.0 Tm () Tj
+1 0 0 1 42 722.5 Tm (Typical ATS Pattern \(What Usually Happens\)) Tj
+1 0 0 1 42 710.0 Tm (------------------------------------------) Tj
+1 0 0 1 42 697.5 Tm (Most ATS pipelines prioritize resume keyword matching, interview notes, and manual scoring. Assessment) Tj
+1 0 0 1 42 685.0 Tm (engines are often detached and integrity data is either absent or weakly integrated.) Tj
+1 0 0 1 42 672.5 Tm () Tj
+1 0 0 1 42 660.0 Tm (AI copilots in current systems frequently provide summary-level recommendations without traceable source) Tj
+1 0 0 1 42 647.5 Tm (references, making compliance review difficult.) Tj
+1 0 0 1 42 635.0 Tm () Tj
+1 0 0 1 42 622.5 Tm () Tj
+1 0 0 1 42 610.0 Tm (AeroHire Pattern \(What Is Different\)) Tj
+1 0 0 1 42 597.5 Tm (------------------------------------) Tj
+1 0 0 1 42 585.0 Tm (1. Evidence-linked rationale: strengths and risks carry evidence categories \(resume.skills,) Tj
+1 0 0 1 42 572.5 Tm (submissions.tests, integrity.flags, etc\).) Tj
+1 0 0 1 42 560.0 Tm () Tj
+1 0 0 1 42 547.5 Tm (2. Multi-signal merge: recommendation depends on technical score, behavioral score, integrity profile,) Tj
+1 0 0 1 42 535.0 Tm (originality behavior, and resume consistency.) Tj
+1 0 0 1 42 522.5 Tm () Tj
+1 0 0 1 42 510.0 Tm (3. Baseline policy checks: candidate is evaluated against explicit role criteria, not only relative) Tj
+1 0 0 1 42 497.5 Tm (ordering among applicants.) Tj
+1 0 0 1 42 485.0 Tm () Tj
+1 0 0 1 42 472.5 Tm (4. Decision transparency: recruiter can publish optional decision note directly visible to candidate) Tj
+1 0 0 1 42 460.0 Tm (status page.) Tj
+1 0 0 1 42 447.5 Tm () Tj
+1 0 0 1 42 435.0 Tm () Tj
+1 0 0 1 42 422.5 Tm (Concrete Comparison Example) Tj
+1 0 0 1 42 410.0 Tm (---------------------------) Tj
+1 0 0 1 42 397.5 Tm (Case: candidate claims strong backend depth but fails fundamental coding checks. In traditional ATS this) Tj
+1 0 0 1 42 385.0 Tm (may still pass initial screening due keyword-rich resume. In AeroHire, the consistency layer flags) Tj
+1 0 0 1 42 372.5 Tm (mismatch and forces risk visibility in AI output.) Tj
+1 0 0 1 42 360.0 Tm () Tj
+1 0 0 1 42 347.5 Tm (Case: candidate performs technically but shows repeated high-risk integrity events. AeroHire can shift) Tj
+1 0 0 1 42 335.0 Tm (recommendation to NO_HIRE/REVIEW due integrity policy, where many systems would continue to optimize for) Tj
+1 0 0 1 42 322.5 Tm (pure score.) Tj
+1 0 0 1 42 310.0 Tm () Tj
+1 0 0 1 42 297.5 Tm () Tj
+1 0 0 1 42 285.0 Tm (Why This Matters to Employers) Tj
+1 0 0 1 42 272.5 Tm (-----------------------------) Tj
+1 0 0 1 42 260.0 Tm (Hiring teams need defensible decisions under time pressure. Explainable outputs reduce escalation) Tj
+1 0 0 1 42 247.5 Tm (friction when decisions are challenged.) Tj
+1 0 0 1 42 235.0 Tm () Tj
+1 0 0 1 42 222.5 Tm (Baseline-aware evaluation improves role-fit quality and reduces false confidence from resume-only) Tj
+1 0 0 1 42 210.0 Tm (filtering.) Tj
+1 0 0 1 42 197.5 Tm () Tj
+1 0 0 1 42 185.0 Tm (Structured evidence enables future audit, policy governance, and model quality benchmarking.) Tj
+1 0 0 1 42 172.5 Tm () Tj
+1 0 0 1 42 160.0 Tm () Tj
+1 0 0 1 502 24 Tm (Page 1 of 1) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3688
+%%EOF

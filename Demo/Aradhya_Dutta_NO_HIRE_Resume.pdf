@@ -1,0 +1,68 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2060 >>
+stream
+BT
+/F1 10.5 Tf
+0 g
+1 0 0 1 50 760 Tm (ARADHYA DUTTA) Tj
+1 0 0 1 50 746 Tm (Email: aarya.rishi@icloud.com | Phone: +91-9000000003 | Chennai, India | LinkedIn: linkedin.com/in/aradhyadutta-demo) Tj
+1 0 0 1 50 732 Tm () Tj
+1 0 0 1 50 718 Tm (PROFESSIONAL SUMMARY) Tj
+1 0 0 1 50 704 Tm (--------------------) Tj
+1 0 0 1 50 690 Tm (Computer science student with hands-on exposure to backend services and web app development.) Tj
+1 0 0 1 50 676 Tm (Comfortable with implementation tasks, issue triage, and iterative release support.) Tj
+1 0 0 1 50 662 Tm () Tj
+1 0 0 1 50 648 Tm (SKILLS) Tj
+1 0 0 1 50 634 Tm (------) Tj
+1 0 0 1 50 620 Tm (Languages: Python, SQL, JavaScript) Tj
+1 0 0 1 50 606 Tm (Backend: FastAPI, REST APIs) Tj
+1 0 0 1 50 592 Tm (Frontend: React basics) Tj
+1 0 0 1 50 578 Tm (Core CS: Data Structures, Algorithmic reasoning, system troubleshooting) Tj
+1 0 0 1 50 564 Tm () Tj
+1 0 0 1 50 550 Tm (EXPERIENCE) Tj
+1 0 0 1 50 536 Tm (----------) Tj
+1 0 0 1 50 522 Tm (Project Intern | Campus Engineering Group | Jul 2024 - Dec 2024) Tj
+1 0 0 1 50 508 Tm (Total Experience: 1 year) Tj
+1 0 0 1 50 494 Tm (- Worked on backend endpoint implementation under mentor-driven sprint cycles.) Tj
+1 0 0 1 50 480 Tm (- Contributed frontend bug fixes and assisted with regression checks.) Tj
+1 0 0 1 50 466 Tm (- Supported data cleanup and report generation for internal review dashboards.) Tj
+1 0 0 1 50 452 Tm () Tj
+1 0 0 1 50 438 Tm (PROJECTS) Tj
+1 0 0 1 50 424 Tm (--------) Tj
+1 0 0 1 50 410 Tm (AeroHire Platform \(Hackathon Build\)) Tj
+1 0 0 1 50 396 Tm (- Implemented assessment UI improvements and telemetry event handling updates.) Tj
+1 0 0 1 50 382 Tm (- Assisted with recruiter-side chart rendering and baseline card interaction checks.) Tj
+1 0 0 1 50 368 Tm (- Participated in demo preparation and scenario testing for end-to-end flow.) Tj
+1 0 0 1 50 354 Tm () Tj
+1 0 0 1 50 340 Tm (EDUCATION) Tj
+1 0 0 1 50 326 Tm (---------) Tj
+1 0 0 1 50 312 Tm (B.Tech, Computer Science and Engineering | SRM Institute of Science and Technology | 2021 - 2025) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2423
+%%EOF

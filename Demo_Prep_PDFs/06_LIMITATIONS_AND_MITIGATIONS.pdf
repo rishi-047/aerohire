@@ -1,0 +1,89 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3332 >>
+stream
+BT
+/F1 9.5 Tf
+0 g
+1 0 0 1 42 760 Tm (06 LIMITATIONS, FAILURE MODES, AND MITIGATIONS) Tj
+1 0 0 1 42 747.5 Tm (==============================================) Tj
+1 0 0 1 42 735.0 Tm () Tj
+1 0 0 1 42 722.5 Tm (Known Current Constraints) Tj
+1 0 0 1 42 710.0 Tm (-------------------------) Tj
+1 0 0 1 42 697.5 Tm (Camera anomaly detection quality varies by browser support, lighting, webcam quality, and frame) Tj
+1 0 0 1 42 685.0 Tm (consistency. This creates non-determinism for multi-face detection.) Tj
+1 0 0 1 42 672.5 Tm () Tj
+1 0 0 1 42 660.0 Tm (Resume parsing is anchor-based and can miss unconventional formatting styles or heavily graphical) Tj
+1 0 0 1 42 647.5 Tm (resumes.) Tj
+1 0 0 1 42 635.0 Tm () Tj
+1 0 0 1 42 622.5 Tm (AI recommendations depend on model availability and prompt quality; fallback is deterministic but less) Tj
+1 0 0 1 42 610.0 Tm (nuanced.) Tj
+1 0 0 1 42 597.5 Tm () Tj
+1 0 0 1 42 585.0 Tm (PoC stack uses SQLite and local dev assumptions that are not sufficient for enterprise concurrency and) Tj
+1 0 0 1 42 572.5 Tm (governance requirements.) Tj
+1 0 0 1 42 560.0 Tm () Tj
+1 0 0 1 42 547.5 Tm () Tj
+1 0 0 1 42 535.0 Tm (Impact Analysis) Tj
+1 0 0 1 42 522.5 Tm (---------------) Tj
+1 0 0 1 42 510.0 Tm (Camera variability can under-report certain integrity anomalies, so hard dependencies on camera-only) Tj
+1 0 0 1 42 497.5 Tm (signals should be avoided in high-stakes decisions.) Tj
+1 0 0 1 42 485.0 Tm () Tj
+1 0 0 1 42 472.5 Tm (Parser misses can downgrade baseline confidence and consistency logic if crucial fields are absent.) Tj
+1 0 0 1 42 460.0 Tm () Tj
+1 0 0 1 42 447.5 Tm (Model outages can reduce recommendation richness but should not block core workflow because fallback) Tj
+1 0 0 1 42 435.0 Tm (remains active.) Tj
+1 0 0 1 42 422.5 Tm () Tj
+1 0 0 1 42 410.0 Tm () Tj
+1 0 0 1 42 397.5 Tm (Mitigations Already Implemented) Tj
+1 0 0 1 42 385.0 Tm (-------------------------------) Tj
+1 0 0 1 42 372.5 Tm (Deterministic integrity signals \(tab-switch, paste\) are integrated and more reliable than camera-only) Tj
+1 0 0 1 42 360.0 Tm (checks.) Tj
+1 0 0 1 42 347.5 Tm () Tj
+1 0 0 1 42 335.0 Tm (Fallback recommendation logic preserves system operability when model calls fail.) Tj
+1 0 0 1 42 322.5 Tm () Tj
+1 0 0 1 42 310.0 Tm (Baseline checklist exposes unknown/missing conditions explicitly, preventing silent failures.) Tj
+1 0 0 1 42 297.5 Tm () Tj
+1 0 0 1 42 285.0 Tm (Resume parsing uses raw text fallback in skill matching path to reduce misses from strict section) Tj
+1 0 0 1 42 272.5 Tm (extraction.) Tj
+1 0 0 1 42 260.0 Tm () Tj
+1 0 0 1 42 247.5 Tm () Tj
+1 0 0 1 42 235.0 Tm (Mitigation Plan Post Demo) Tj
+1 0 0 1 42 222.5 Tm (-------------------------) Tj
+1 0 0 1 42 210.0 Tm (Improve parser robustness with section scoring and optional OCR fallback for non-text PDFs.) Tj
+1 0 0 1 42 197.5 Tm () Tj
+1 0 0 1 42 185.0 Tm (Add calibration and confidence indicators for camera subsystem with clearer user guidance.) Tj
+1 0 0 1 42 172.5 Tm () Tj
+1 0 0 1 42 160.0 Tm (Introduce model-response validation checks and stricter risk-line enforcement rules.) Tj
+1 0 0 1 42 147.5 Tm () Tj
+1 0 0 1 42 135.0 Tm (Adopt production-grade infra controls and formal test suites for recommendation determinism.) Tj
+1 0 0 1 42 122.5 Tm () Tj
+1 0 0 1 42 110.0 Tm () Tj
+1 0 0 1 502 24 Tm (Page 1 of 1) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3695
+%%EOF

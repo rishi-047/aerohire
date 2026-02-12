@@ -1,0 +1,68 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2069 >>
+stream
+BT
+/F1 10.5 Tf
+0 g
+1 0 0 1 50 760 Tm (AARYA RISHI MONDAL) Tj
+1 0 0 1 50 746 Tm (Email: aaryarishi47@gmail.com | Phone: +91-9000000002 | Chennai, India | LinkedIn: linkedin.com/in/aaryarishi-demo) Tj
+1 0 0 1 50 732 Tm () Tj
+1 0 0 1 50 718 Tm (PROFESSIONAL SUMMARY) Tj
+1 0 0 1 50 704 Tm (--------------------) Tj
+1 0 0 1 50 690 Tm (Entry-level developer with strong Python fundamentals and practical API building experience.) Tj
+1 0 0 1 50 676 Tm (Interested in backend engineering, clean code, and collaborative development workflows.) Tj
+1 0 0 1 50 662 Tm () Tj
+1 0 0 1 50 648 Tm (SKILLS) Tj
+1 0 0 1 50 634 Tm (------) Tj
+1 0 0 1 50 620 Tm (Languages: Python, JavaScript) Tj
+1 0 0 1 50 606 Tm (Backend: FastAPI, request handling, API testing) Tj
+1 0 0 1 50 592 Tm (Frontend familiarity: React basics) Tj
+1 0 0 1 50 578 Tm (Tools: Git, VS Code, Linux CLI) Tj
+1 0 0 1 50 564 Tm () Tj
+1 0 0 1 50 550 Tm (EXPERIENCE) Tj
+1 0 0 1 50 536 Tm (----------) Tj
+1 0 0 1 50 522 Tm (Developer Trainee | Student Innovation Lab | Jan 2024 - Present) Tj
+1 0 0 1 50 508 Tm (Total Experience: 1 year) Tj
+1 0 0 1 50 494 Tm (- Implemented Python utilities for workflow automation and status tracking.) Tj
+1 0 0 1 50 480 Tm (- Supported teammate debugging in API integration and response validation tasks.) Tj
+1 0 0 1 50 466 Tm (- Participated in code reviews and addressed maintainability findings.) Tj
+1 0 0 1 50 452 Tm () Tj
+1 0 0 1 50 438 Tm (PROJECTS) Tj
+1 0 0 1 50 424 Tm (--------) Tj
+1 0 0 1 50 410 Tm (AeroHire Platform \(Hackathon Build\)) Tj
+1 0 0 1 50 396 Tm (- Contributed to candidate dashboard interactions and assessment UX flow improvements.) Tj
+1 0 0 1 50 382 Tm (- Integrated recruiter decision-note visibility into candidate application status page.) Tj
+1 0 0 1 50 368 Tm (- Helped test telemetry event flow from candidate session to recruiter dashboard.) Tj
+1 0 0 1 50 354 Tm () Tj
+1 0 0 1 50 340 Tm (EDUCATION) Tj
+1 0 0 1 50 326 Tm (---------) Tj
+1 0 0 1 50 312 Tm (B.Tech, Computer Science and Engineering | SRM Institute of Science and Technology | 2021 - 2025) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2432
+%%EOF

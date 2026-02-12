@@ -1,0 +1,557 @@
+/* Tailwind CSS v4 Import */
+@import "tailwindcss";
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* ============================================
+   AeroHire Theme Configuration (Tailwind v4)
+   Design System: Titanium Slate Theme
+   Enterprise SaaS meets F1 Telemetry
+   ============================================ */
+
+@theme {
+  /* Titanium Slate Color Palette */
+  --color-aero-bg: #0f172a;           /* Slate 900 - Richer, bluer dark */
+  --color-aero-surface: #1e293b;      /* Slate 800 - Lighter, allows shadows */
+  --color-aero-surface-elevated: #334155; /* Slate 700 - For hover states */
+  --color-aero-border: #475569;       /* Slate 600 - More visible borders */
+  --color-aero-border-subtle: #334155; /* Slate 700 - Subtle borders */
+  --color-aero-text: #f1f5f9;         /* Slate 100 - Primary text */
+  --color-aero-muted: #94a3b8;        /* Slate 400 - Secondary text */
+  --color-aero-dim: #64748b;          /* Slate 500 - Dimmed text */
+
+  /* Accent Colors - Softer, more professional */
+  --color-aero-cyan: #38bdf8;         /* Sky 400 - Primary accent */
+  --color-aero-cyan-hover: #0ea5e9;   /* Sky 500 - Hover state */
+  --color-aero-cyan-glow: rgba(56, 189, 248, 0.15); /* Glow effect */
+  --color-aero-indigo: #818cf8;       /* Indigo 400 - Secondary accent */
+  --color-aero-indigo-hover: #6366f1; /* Indigo 500 */
+  --color-aero-purple: #a78bfa;       /* Violet 400 - Psychometric */
+  --color-aero-orange: #fb923c;       /* Orange 400 - Warning */
+  --color-aero-green: #4ade80;        /* Green 400 - Success */
+  --color-aero-green-glow: rgba(74, 222, 128, 0.15);
+  --color-aero-red: #f87171;          /* Red 400 - Error/danger */
+  --color-aero-red-hover: #ef4444;    /* Red 500 */
+  --color-aero-red-glow: rgba(248, 113, 113, 0.15);
+  --color-aero-yellow: #fbbf24;       /* Amber 400 - Caution */
+
+  /* Font Families */
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+
+  /* Shadows - Enhanced for floating elements */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+  --shadow-elevated: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.25);
+  --shadow-glow-cyan: 0 0 20px rgba(56, 189, 248, 0.3);
+  --shadow-glow-green: 0 0 20px rgba(74, 222, 128, 0.3);
+  --shadow-glow-red: 0 0 20px rgba(248, 113, 113, 0.3);
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ============================================
+   Base Styles
+   ============================================ */
+
+:root {
+  /* CSS Variables for non-Tailwind usage */
+  --aero-bg: #0f172a;
+  --aero-surface: #1e293b;
+  --aero-surface-elevated: #334155;
+  --aero-border: #475569;
+  --aero-border-subtle: #334155;
+  --aero-text: #f1f5f9;
+  --aero-muted: #94a3b8;
+  --aero-dim: #64748b;
+  --aero-cyan: #38bdf8;
+  --aero-indigo: #818cf8;
+  --aero-orange: #fb923c;
+  --aero-purple: #a78bfa;
+  --aero-green: #4ade80;
+  --aero-red: #f87171;
+  --aero-yellow: #fbbf24;
+
+  /* Typography */
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Rendering */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--aero-bg);
+  color: var(--aero-text);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ============================================
+   Custom Scrollbar (Titanium Style)
+   ============================================ */
+
+/* Webkit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--aero-bg);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--aero-border-subtle);
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--aero-border);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--aero-border-subtle) var(--aero-bg);
+}
+
+/* ============================================
+   Typography Utilities
+   ============================================ */
+
+.text-display {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.text-h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.text-h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.text-h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.text-body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.text-small {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.text-caption {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.text-code {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* ============================================
+   Focus Styles (Accessibility)
+   ============================================ */
+
+:focus-visible {
+  outline: 2px solid var(--aero-cyan);
+  outline-offset: 2px;
+}
+
+/* ============================================
+   Link Styles
+   ============================================ */
+
+a {
+  color: var(--aero-cyan);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: #0ea5e9;
+}
+
+/* ============================================
+   Selection Styles
+   ============================================ */
+
+::selection {
+  background-color: var(--aero-cyan);
+  color: var(--aero-bg);
+}
+
+/* ============================================
+   Component Classes - Titanium Design System
+   ============================================ */
+
+/* Card Component - Glass morphism style */
+.card {
+  background-color: var(--aero-surface);
+  border: 1px solid var(--aero-border-subtle);
+  border-radius: 12px;
+  padding: 20px;
+  backdrop-filter: blur(8px);
+}
+
+.card-elevated {
+  background-color: var(--aero-surface);
+  border: 1px solid var(--aero-border-subtle);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+}
+
+.card-floating {
+  background-color: var(--aero-surface);
+  border: 1px solid var(--aero-border-subtle);
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease;
+}
+
+.card-floating:hover {
+  border-color: var(--aero-border);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  transform: translateY(-2px);
+}
+
+/* Button Components - Premium feel */
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.15s ease;
+  cursor: pointer;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--aero-cyan) 0%, #0ea5e9 100%);
+  color: var(--aero-bg);
+  box-shadow: 0 2px 8px rgba(56, 189, 248, 0.3);
+}
+
+.btn-primary:hover:not(:disabled) {
+  box-shadow: 0 4px 16px rgba(56, 189, 248, 0.4);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--aero-cyan);
+  border: 1px solid var(--aero-cyan);
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background-color: rgba(56, 189, 248, 0.1);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, var(--aero-red) 0%, #ef4444 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(248, 113, 113, 0.3);
+}
+
+.btn-danger:hover:not(:disabled) {
+  box-shadow: 0 4px 16px rgba(248, 113, 113, 0.4);
+  transform: translateY(-1px);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--aero-muted);
+}
+
+.btn-ghost:hover:not(:disabled) {
+  color: var(--aero-text);
+  background-color: var(--aero-surface-elevated);
+}
+
+/* Input Components - Modern styling */
+.input {
+  width: 100%;
+  background-color: var(--aero-bg);
+  border: 1px solid var(--aero-border-subtle);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: var(--aero-text);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.input::placeholder {
+  color: var(--aero-dim);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--aero-cyan);
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+}
+
+/* Badge Components - Pill style with glow */
+.badge {
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+}
+
+.badge-success {
+  background-color: rgba(74, 222, 128, 0.15);
+  color: var(--aero-green);
+  border: 1px solid rgba(74, 222, 128, 0.3);
+}
+
+.badge-warning {
+  background-color: rgba(251, 146, 60, 0.15);
+  color: var(--aero-orange);
+  border: 1px solid rgba(251, 146, 60, 0.3);
+}
+
+.badge-danger {
+  background-color: rgba(248, 113, 113, 0.15);
+  color: var(--aero-red);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+}
+
+.badge-info {
+  background-color: rgba(56, 189, 248, 0.15);
+  color: var(--aero-cyan);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.badge-indigo {
+  background-color: rgba(129, 140, 248, 0.15);
+  color: var(--aero-indigo);
+  border: 1px solid rgba(129, 140, 248, 0.3);
+}
+
+/* Stat Card Component */
+.stat-card {
+  background: linear-gradient(135deg, var(--aero-surface) 0%, rgba(30, 41, 59, 0.8) 100%);
+  border: 1px solid var(--aero-border-subtle);
+  border-radius: 16px;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--aero-cyan), var(--aero-indigo));
+  opacity: 0.8;
+}
+
+/* Floating Row Component */
+.floating-row {
+  background-color: var(--aero-surface);
+  border: 1px solid var(--aero-border-subtle);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.floating-row:hover {
+  border-color: var(--aero-cyan);
+  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.3), 0 8px 25px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Glass Panel */
+.glass-panel {
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(71, 85, 105, 0.5);
+  border-radius: 16px;
+}
+
+/* Progress Bar */
+.progress-bar {
+  height: 6px;
+  background-color: var(--aero-bg);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+/* Verdict Badges - Large prominent style */
+.verdict-hire {
+  background: linear-gradient(135deg, rgba(74, 222, 128, 0.2) 0%, rgba(34, 197, 94, 0.2) 100%);
+  border: 2px solid var(--aero-green);
+  color: var(--aero-green);
+  box-shadow: 0 0 30px rgba(74, 222, 128, 0.2);
+}
+
+.verdict-no-hire {
+  background: linear-gradient(135deg, rgba(248, 113, 113, 0.2) 0%, rgba(239, 68, 68, 0.2) 100%);
+  border: 2px solid var(--aero-red);
+  color: var(--aero-red);
+  box-shadow: 0 0 30px rgba(248, 113, 113, 0.2);
+}
+
+.verdict-review {
+  background: linear-gradient(135deg, rgba(251, 146, 60, 0.2) 0%, rgba(245, 158, 11, 0.2) 100%);
+  border: 2px solid var(--aero-orange);
+  color: var(--aero-orange);
+  box-shadow: 0 0 30px rgba(251, 146, 60, 0.2);
+}
+
+.verdict-pending {
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.2) 0%, rgba(14, 165, 233, 0.2) 100%);
+  border: 2px solid var(--aero-cyan);
+  color: var(--aero-cyan);
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.2);
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background: linear-gradient(180deg, var(--aero-surface) 0%, rgba(30, 41, 59, 0.95) 100%);
+  border-right: 1px solid var(--aero-border-subtle);
+  backdrop-filter: blur(12px);
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: var(--aero-muted);
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.sidebar-item:hover {
+  background-color: var(--aero-surface-elevated);
+  color: var(--aero-text);
+}
+
+.sidebar-item.active {
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.15) 0%, rgba(56, 189, 248, 0.05) 100%);
+  color: var(--aero-cyan);
+  border-left: 3px solid var(--aero-cyan);
+  margin-left: -3px;
+}
+
+/* Animations */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.5);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}

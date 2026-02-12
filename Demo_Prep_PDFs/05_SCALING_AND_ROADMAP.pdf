@@ -1,0 +1,91 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3389 >>
+stream
+BT
+/F1 9.5 Tf
+0 g
+1 0 0 1 42 760 Tm (05 SCALING STRATEGY AND ROADMAP) Tj
+1 0 0 1 42 747.5 Tm (===============================) Tj
+1 0 0 1 42 735.0 Tm () Tj
+1 0 0 1 42 722.5 Tm (Phase 1 - Production Hardening) Tj
+1 0 0 1 42 710.0 Tm (------------------------------) Tj
+1 0 0 1 42 697.5 Tm (Replace SQLite with PostgreSQL and formalize schema migrations. Add environment-specific config profiles) Tj
+1 0 0 1 42 685.0 Tm (and secure secret management.) Tj
+1 0 0 1 42 672.5 Tm () Tj
+1 0 0 1 42 660.0 Tm (Introduce robust authentication/authorization boundaries and role-scoped API guards where currently) Tj
+1 0 0 1 42 647.5 Tm (permissive for demo speed.) Tj
+1 0 0 1 42 635.0 Tm () Tj
+1 0 0 1 42 622.5 Tm (Add observability foundation: request IDs, structured logs, endpoint latency metrics, model call stats,) Tj
+1 0 0 1 42 610.0 Tm (and error alerting.) Tj
+1 0 0 1 42 597.5 Tm () Tj
+1 0 0 1 42 585.0 Tm () Tj
+1 0 0 1 42 572.5 Tm (Phase 2 - Throughput and Reliability) Tj
+1 0 0 1 42 560.0 Tm (------------------------------------) Tj
+1 0 0 1 42 547.5 Tm (Move expensive tasks \(resume parsing, report regeneration\) to async workers with queue-based retries.) Tj
+1 0 0 1 42 535.0 Tm () Tj
+1 0 0 1 42 522.5 Tm (Add object storage for large artifacts \(resume files, optional evidence snapshots\) and keep DB for) Tj
+1 0 0 1 42 510.0 Tm (metadata/indexing.) Tj
+1 0 0 1 42 497.5 Tm () Tj
+1 0 0 1 42 485.0 Tm (Implement cache and invalidation rules for expensive aggregate reads to protect recruiter dashboard) Tj
+1 0 0 1 42 472.5 Tm (responsiveness at scale.) Tj
+1 0 0 1 42 460.0 Tm () Tj
+1 0 0 1 42 447.5 Tm () Tj
+1 0 0 1 42 435.0 Tm (Phase 3 - Enterprise Controls) Tj
+1 0 0 1 42 422.5 Tm (-----------------------------) Tj
+1 0 0 1 42 410.0 Tm (Add SSO/SAML and granular RBAC.) Tj
+1 0 0 1 42 397.5 Tm () Tj
+1 0 0 1 42 385.0 Tm (Implement policy editor for baseline rules per role/department.) Tj
+1 0 0 1 42 372.5 Tm () Tj
+1 0 0 1 42 360.0 Tm (Support multi-tenant boundaries with explicit tenant IDs and isolation guardrails.) Tj
+1 0 0 1 42 347.5 Tm () Tj
+1 0 0 1 42 335.0 Tm (Add compliance exports and immutable audit trail generation for decision records.) Tj
+1 0 0 1 42 322.5 Tm () Tj
+1 0 0 1 42 310.0 Tm () Tj
+1 0 0 1 42 297.5 Tm (Phase 4 - Model Governance) Tj
+1 0 0 1 42 285.0 Tm (--------------------------) Tj
+1 0 0 1 42 272.5 Tm (Track model output quality against hiring outcomes and false positive/negative rates.) Tj
+1 0 0 1 42 260.0 Tm () Tj
+1 0 0 1 42 247.5 Tm (Enable controlled prompt/version rollouts and A/B validation for recommendation quality.) Tj
+1 0 0 1 42 235.0 Tm () Tj
+1 0 0 1 42 222.5 Tm (Add confidence calibration using historical recruiter decisions and post-hire performance proxies.) Tj
+1 0 0 1 42 210.0 Tm () Tj
+1 0 0 1 42 197.5 Tm () Tj
+1 0 0 1 42 185.0 Tm (What Could Be Achieved with More Time) Tj
+1 0 0 1 42 172.5 Tm (-------------------------------------) Tj
+1 0 0 1 42 160.0 Tm (A policy-governed hiring intelligence platform where recommendation quality is measurable, explainable,) Tj
+1 0 0 1 42 147.5 Tm (and operationally auditable across teams and roles.) Tj
+1 0 0 1 42 135.0 Tm () Tj
+1 0 0 1 42 122.5 Tm (A recruiter workflow that moves from manual subjective reviews to signal-based decision support with) Tj
+1 0 0 1 42 110.0 Tm (clear override controls.) Tj
+1 0 0 1 42 97.5 Tm () Tj
+1 0 0 1 42 85.0 Tm () Tj
+1 0 0 1 502 24 Tm (Page 1 of 1) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3752
+%%EOF

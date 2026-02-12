@@ -1,0 +1,119 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3522 >>
+stream
+BT
+/F1 9.5 Tf
+0 g
+1 0 0 1 42 760 Tm (02 API END TO END FLOW) Tj
+1 0 0 1 42 747.5 Tm (======================) Tj
+1 0 0 1 42 735.0 Tm () Tj
+1 0 0 1 42 722.5 Tm (Auth and Candidate Initialization) Tj
+1 0 0 1 42 710.0 Tm (---------------------------------) Tj
+1 0 0 1 42 697.5 Tm (POST /api/v1/auth/register creates user and, for candidate role, associated candidate profile row.) Tj
+1 0 0 1 42 685.0 Tm () Tj
+1 0 0 1 42 672.5 Tm (POST /api/v1/auth/login returns JWT token. Frontend stores token and injects Authorization header via) Tj
+1 0 0 1 42 660.0 Tm (Axios interceptor.) Tj
+1 0 0 1 42 647.5 Tm () Tj
+1 0 0 1 42 635.0 Tm (GET /api/v1/auth/me resolves identity and candidate_id linkage used by candidate workflows.) Tj
+1 0 0 1 42 622.5 Tm () Tj
+1 0 0 1 42 610.0 Tm () Tj
+1 0 0 1 42 597.5 Tm (Resume Ingestion and Structuring) Tj
+1 0 0 1 42 585.0 Tm (--------------------------------) Tj
+1 0 0 1 42 572.5 Tm (POST /api/v1/resume/upload accepts PDF, parses sections \(skills/experience/education\), and writes parsed) Tj
+1 0 0 1 42 560.0 Tm (structure to candidate.resume_parsed_data plus raw text fallback.) Tj
+1 0 0 1 42 547.5 Tm () Tj
+1 0 0 1 42 535.0 Tm (The parser extracts an estimated experience_years value based on section-scoped patterns. This value) Tj
+1 0 0 1 42 522.5 Tm (feeds baseline and consistency checks.) Tj
+1 0 0 1 42 510.0 Tm () Tj
+1 0 0 1 42 497.5 Tm (Parsed output is retained as JSON to keep both machine features and raw human-readable context in one) Tj
+1 0 0 1 42 485.0 Tm (place.) Tj
+1 0 0 1 42 472.5 Tm () Tj
+1 0 0 1 42 460.0 Tm () Tj
+1 0 0 1 42 447.5 Tm (Assessment Runtime Flow) Tj
+1 0 0 1 42 435.0 Tm (-----------------------) Tj
+1 0 0 1 42 422.5 Tm (POST /api/v1/assessment/submit stores code execution outputs per question.) Tj
+1 0 0 1 42 410.0 Tm () Tj
+1 0 0 1 42 397.5 Tm (POST /api/v1/assessment/chat-response stores collaboration response and teamwork score signal.) Tj
+1 0 0 1 42 385.0 Tm () Tj
+1 0 0 1 42 372.5 Tm (POST /api/v1/assessment/complete computes final scores, aggregates integrity logs, computes originality) Tj
+1 0 0 1 42 360.0 Tm (ratio, and invokes recommendation engine.) Tj
+1 0 0 1 42 347.5 Tm () Tj
+1 0 0 1 42 335.0 Tm () Tj
+1 0 0 1 42 322.5 Tm (Integrity Telemetry Flow) Tj
+1 0 0 1 42 310.0 Tm (------------------------) Tj
+1 0 0 1 42 297.5 Tm (POST /api/v1/telemetry/log records event_type + severity with timestamp.) Tj
+1 0 0 1 42 285.0 Tm () Tj
+1 0 0 1 42 272.5 Tm (GET /api/v1/telemetry/candidate/{id}/logs or dashboard aggregate endpoint provides timeline-ready event) Tj
+1 0 0 1 42 260.0 Tm (data.) Tj
+1 0 0 1 42 247.5 Tm () Tj
+1 0 0 1 42 235.0 Tm (Integrity score is weighted from severity counts \(HIGH, MEDIUM, LOW penalties\) and fed into) Tj
+1 0 0 1 42 222.5 Tm (recommendation logic.) Tj
+1 0 0 1 42 210.0 Tm () Tj
+1 0 0 1 42 197.5 Tm () Tj
+1 0 0 1 42 185.0 Tm (Recruiter Decision Surface) Tj
+1 0 0 1 42 172.5 Tm (--------------------------) Tj
+1 0 0 1 42 160.0 Tm (GET /api/v1/dashboard/candidates provides pipeline list.) Tj
+1 0 0 1 42 147.5 Tm () Tj
+1 0 0 1 42 135.0 Tm (GET /api/v1/dashboard/candidate/{id} aggregates scores, logs, submissions, AI rationale, baseline) Tj
+1 0 0 1 42 122.5 Tm (summary, consistency signals.) Tj
+1 0 0 1 42 110.0 Tm () Tj
+1 0 0 1 42 97.5 Tm (PUT /api/v1/dashboard/candidate/{id}/status updates stage and optional decision_note, visible on) Tj
+1 0 0 1 42 85.0 Tm (candidate status page.) Tj
+1 0 0 1 42 72.5 Tm () Tj
+1 0 0 1 42 60.0 Tm () Tj
+1 0 0 1 42 47.5 Tm (Failure Handling) Tj
+1 0 0 1 502 24 Tm (Page 1 of 2) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 665 >>
+stream
+BT
+/F1 9.5 Tf
+0 g
+1 0 0 1 42 760 Tm (----------------) Tj
+1 0 0 1 42 747.5 Tm (If Gemini fails, rule-based rationale generation still returns recommendation and structured rationale.) Tj
+1 0 0 1 42 735.0 Tm () Tj
+1 0 0 1 42 722.5 Tm (If parsing fails for a section, raw text and partial outputs are preserved so recruiter can still) Tj
+1 0 0 1 42 710.0 Tm (evaluate context.) Tj
+1 0 0 1 42 697.5 Tm () Tj
+1 0 0 1 42 685.0 Tm (If telemetry subsystem has sparse data, assessment and recruiter flows still function with reduced) Tj
+1 0 0 1 42 672.5 Tm (integrity confidence.) Tj
+1 0 0 1 42 660.0 Tm () Tj
+1 0 0 1 42 647.5 Tm () Tj
+1 0 0 1 502 24 Tm (Page 2 of 2) Tj
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000317 00000 n 
+0000003891 00000 n 
+0000004017 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+4733
+%%EOF

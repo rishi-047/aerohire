@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(curl:*)",
+      "Bash(npm run dev:*)",
+      "Bash(cd:*)",
+      "Bash(uvicorn:*)",
+      "Bash(pkill:*)",
+      "Bash(python3 -m uvicorn:*)",
+      "Bash(tree:*)",
+      "Bash(npx tsc:*)",
+      "Bash(python -m py_compile:*)",
+      "Bash(python:*)",
+      "Bash(lsof:*)",
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(python3:*)",
+      "Bash(node -e:*)",
+      "Bash(chmod:*)"
+    ]
+  }
+}

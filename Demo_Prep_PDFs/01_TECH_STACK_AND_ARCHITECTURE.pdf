@@ -1,0 +1,92 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3611 >>
+stream
+BT
+/F1 9.5 Tf
+0 g
+1 0 0 1 42 760 Tm (01 TECH STACK AND ARCHITECTURE) Tj
+1 0 0 1 42 747.5 Tm (==============================) Tj
+1 0 0 1 42 735.0 Tm () Tj
+1 0 0 1 42 722.5 Tm (Frontend Layer) Tj
+1 0 0 1 42 710.0 Tm (--------------) Tj
+1 0 0 1 42 697.5 Tm (Framework and tooling: React + Vite + TypeScript + Tailwind CSS. This combination enabled rapid UI) Tj
+1 0 0 1 42 685.0 Tm (iteration with strict typing and predictable local dev behavior.) Tj
+1 0 0 1 42 672.5 Tm () Tj
+1 0 0 1 42 660.0 Tm (Assessment interface uses Monaco Editor to simulate a coding environment and to capture fine-grained) Tj
+1 0 0 1 42 647.5 Tm (input signals \(typed vs pasted character analysis\).) Tj
+1 0 0 1 42 635.0 Tm () Tj
+1 0 0 1 42 622.5 Tm (Recharts powers recruiter-side telemetry visualization for session integrity. The chart is not) Tj
+1 0 0 1 42 610.0 Tm (decorative; it reflects persisted telemetry events from backend records.) Tj
+1 0 0 1 42 597.5 Tm () Tj
+1 0 0 1 42 585.0 Tm (Routing and role-based surfaces: candidate pages \(upload, assessment, status\) and recruiter pages) Tj
+1 0 0 1 42 572.5 Tm (\(pipeline, candidate detail, AI audit\) are separated by role context.) Tj
+1 0 0 1 42 560.0 Tm () Tj
+1 0 0 1 42 547.5 Tm () Tj
+1 0 0 1 42 535.0 Tm (Backend Layer) Tj
+1 0 0 1 42 522.5 Tm (-------------) Tj
+1 0 0 1 42 510.0 Tm (FastAPI is used for API design due to typed request/response models and clean service decomposition.) Tj
+1 0 0 1 42 497.5 Tm (SQLAlchemy models back persistence in SQLite for PoC velocity.) Tj
+1 0 0 1 42 485.0 Tm () Tj
+1 0 0 1 42 472.5 Tm (Service modules include: resume zone parser, assessment execution flow, telemetry ingestion, dashboard) Tj
+1 0 0 1 42 460.0 Tm (aggregation, baseline evaluator, and glass-box rationale engine.) Tj
+1 0 0 1 42 447.5 Tm () Tj
+1 0 0 1 42 435.0 Tm (Model orchestration: Gemini is used for structured rationale generation. A deterministic fallback path) Tj
+1 0 0 1 42 422.5 Tm (maintains continuity if model access fails.) Tj
+1 0 0 1 42 410.0 Tm () Tj
+1 0 0 1 42 397.5 Tm () Tj
+1 0 0 1 42 385.0 Tm (Data Model Overview) Tj
+1 0 0 1 42 372.5 Tm (-------------------) Tj
+1 0 0 1 42 360.0 Tm (users: account identity and role.) Tj
+1 0 0 1 42 347.5 Tm () Tj
+1 0 0 1 42 335.0 Tm (candidates: profile, status, parsed resume data, scores, recommendation artifacts, decision notes.) Tj
+1 0 0 1 42 322.5 Tm () Tj
+1 0 0 1 42 310.0 Tm (code_submissions: per-question code result and optional forensics artifacts \(history, char breakdown,) Tj
+1 0 0 1 42 297.5 Tm (chat response\).) Tj
+1 0 0 1 42 285.0 Tm () Tj
+1 0 0 1 42 272.5 Tm (proctoring_logs: event stream for integrity signals with severity and timestamps.) Tj
+1 0 0 1 42 260.0 Tm () Tj
+1 0 0 1 42 247.5 Tm () Tj
+1 0 0 1 42 235.0 Tm (Trust and Stability Design) Tj
+1 0 0 1 42 222.5 Tm (--------------------------) Tj
+1 0 0 1 42 210.0 Tm (AI rationale reuse via hash-like metadata avoids unnecessary model regeneration and lowers) Tj
+1 0 0 1 42 197.5 Tm (cost/variability.) Tj
+1 0 0 1 42 185.0 Tm () Tj
+1 0 0 1 42 172.5 Tm (Fallback rules provide bounded behavior for high-stakes decisions when external AI service is) Tj
+1 0 0 1 42 160.0 Tm (unavailable.) Tj
+1 0 0 1 42 147.5 Tm () Tj
+1 0 0 1 42 135.0 Tm (Baseline checklist makes policy constraints visible and machine-checkable on recruiter surface.) Tj
+1 0 0 1 42 122.5 Tm () Tj
+1 0 0 1 42 110.0 Tm (Deterministic telemetry inputs \(tab switch/paste\) are used for demo stability; camera anomalies are) Tj
+1 0 0 1 42 97.5 Tm (supplementary due hardware variability.) Tj
+1 0 0 1 42 85.0 Tm () Tj
+1 0 0 1 42 72.5 Tm () Tj
+1 0 0 1 502 24 Tm (Page 1 of 1) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3974
+%%EOF

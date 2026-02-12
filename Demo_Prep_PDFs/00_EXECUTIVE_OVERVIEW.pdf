@@ -1,0 +1,92 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3658 >>
+stream
+BT
+/F1 9.5 Tf
+0 g
+1 0 0 1 42 760 Tm (00 EXECUTIVE OVERVIEW - AEROHIRE) Tj
+1 0 0 1 42 747.5 Tm (================================) Tj
+1 0 0 1 42 735.0 Tm () Tj
+1 0 0 1 42 722.5 Tm (Product Intent and Scope) Tj
+1 0 0 1 42 710.0 Tm (------------------------) Tj
+1 0 0 1 42 697.5 Tm (AeroHire is a trust-first hiring intelligence platform. The core problem it addresses is that hiring) Tj
+1 0 0 1 42 685.0 Tm (decisions are often made from disconnected systems: one system parses resumes, another runs tests, and) Tj
+1 0 0 1 42 672.5 Tm (another stores interview notes. This disconnect makes decisions harder to justify and easier to dispute.) Tj
+1 0 0 1 42 660.0 Tm () Tj
+1 0 0 1 42 647.5 Tm (The implemented scope includes candidate onboarding, resume parsing, multi-part assessment, integrity) Tj
+1 0 0 1 42 635.0 Tm (telemetry, explainable AI recommendations, recruiter workflow controls, and candidate-facing status) Tj
+1 0 0 1 42 622.5 Tm (transparency.) Tj
+1 0 0 1 42 610.0 Tm () Tj
+1 0 0 1 42 597.5 Tm (This is a working proof-of-concept with real API wiring and observable behavior, not a static prototype.) Tj
+1 0 0 1 42 585.0 Tm (The system can produce different recommendation outcomes based on measurable input changes.) Tj
+1 0 0 1 42 572.5 Tm () Tj
+1 0 0 1 42 560.0 Tm () Tj
+1 0 0 1 42 547.5 Tm (Core Principles) Tj
+1 0 0 1 42 535.0 Tm (---------------) Tj
+1 0 0 1 42 522.5 Tm (1. Explainability over black-box scoring: decisions include evidence references so recruiters can audit) Tj
+1 0 0 1 42 510.0 Tm (why a recommendation was produced.) Tj
+1 0 0 1 42 497.5 Tm () Tj
+1 0 0 1 42 485.0 Tm (2. Multi-signal decisioning: resume claims are not accepted at face value and are compared against test) Tj
+1 0 0 1 42 472.5 Tm (performance and integrity behavior.) Tj
+1 0 0 1 42 460.0 Tm () Tj
+1 0 0 1 42 447.5 Tm (3. Operational pragmatism: deterministic fallback logic exists when model services fail, preventing) Tj
+1 0 0 1 42 435.0 Tm (blocking failures in the recruitment flow.) Tj
+1 0 0 1 42 422.5 Tm () Tj
+1 0 0 1 42 410.0 Tm (4. Candidate transparency: recruiter decision notes are visible in candidate status view, reducing) Tj
+1 0 0 1 42 397.5 Tm (communication opacity.) Tj
+1 0 0 1 42 385.0 Tm () Tj
+1 0 0 1 42 372.5 Tm () Tj
+1 0 0 1 42 360.0 Tm (What to Show in Demo) Tj
+1 0 0 1 42 347.5 Tm (--------------------) Tj
+1 0 0 1 42 335.0 Tm (A. HIRE path: high technical + behavioral + acceptable integrity + baseline alignment.) Tj
+1 0 0 1 42 322.5 Tm () Tj
+1 0 0 1 42 310.0 Tm (B. REVIEW path: strong technical but incomplete behavioral evidence or mixed profile.) Tj
+1 0 0 1 42 297.5 Tm () Tj
+1 0 0 1 42 285.0 Tm (C. NO_HIRE path: integrity override or severe mismatch conditions.) Tj
+1 0 0 1 42 272.5 Tm () Tj
+1 0 0 1 42 260.0 Tm (These three paths demonstrate that recommendations are not hardcoded and that decisioning is policy-) Tj
+1 0 0 1 42 247.5 Tm (aware.) Tj
+1 0 0 1 42 235.0 Tm () Tj
+1 0 0 1 42 222.5 Tm () Tj
+1 0 0 1 42 210.0 Tm (Business Value) Tj
+1 0 0 1 42 197.5 Tm (--------------) Tj
+1 0 0 1 42 185.0 Tm (For recruiters: faster shortlisting with justifiable risk visibility.) Tj
+1 0 0 1 42 172.5 Tm () Tj
+1 0 0 1 42 160.0 Tm (For hiring managers: clear linkage between candidate claims and measured outcomes.) Tj
+1 0 0 1 42 147.5 Tm () Tj
+1 0 0 1 42 135.0 Tm (For candidates: improved trust via transparent pipeline status and decision communication.) Tj
+1 0 0 1 42 122.5 Tm () Tj
+1 0 0 1 42 110.0 Tm (For organizations: a base architecture that can evolve into policy-governed enterprise hiring) Tj
+1 0 0 1 42 97.5 Tm (infrastructure.) Tj
+1 0 0 1 42 85.0 Tm () Tj
+1 0 0 1 42 72.5 Tm () Tj
+1 0 0 1 502 24 Tm (Page 1 of 1) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+4021
+%%EOF

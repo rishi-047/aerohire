@@ -1,0 +1,94 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3700 >>
+stream
+BT
+/F1 9.5 Tf
+0 g
+1 0 0 1 42 760 Tm (04 FILE MAP AND RESPONSIBILITIES) Tj
+1 0 0 1 42 747.5 Tm (================================) Tj
+1 0 0 1 42 735.0 Tm () Tj
+1 0 0 1 42 722.5 Tm (Frontend Responsibility Map) Tj
+1 0 0 1 42 710.0 Tm (---------------------------) Tj
+1 0 0 1 42 697.5 Tm (frontend/src/pages/Assessment.tsx: candidate assessment runtime, editor input tracking, telemetry) Tj
+1 0 0 1 42 685.0 Tm (emission, completion trigger.) Tj
+1 0 0 1 42 672.5 Tm () Tj
+1 0 0 1 42 660.0 Tm (frontend/src/pages/CandidateDashboard.tsx: candidate entry point for resume upload and status actions.) Tj
+1 0 0 1 42 647.5 Tm () Tj
+1 0 0 1 42 635.0 Tm (frontend/src/pages/ApplicationStatus.tsx: candidate pipeline timeline and recruiter decision-note) Tj
+1 0 0 1 42 622.5 Tm (rendering.) Tj
+1 0 0 1 42 610.0 Tm () Tj
+1 0 0 1 42 597.5 Tm (frontend/src/pages/CandidateDetail.tsx: recruiter deep-dive view including charting, AI report parsing,) Tj
+1 0 0 1 42 585.0 Tm (baseline checklist, resume modal.) Tj
+1 0 0 1 42 572.5 Tm () Tj
+1 0 0 1 42 560.0 Tm (frontend/src/lib/api.ts: typed client wrappers for all backend endpoints and token handling.) Tj
+1 0 0 1 42 547.5 Tm () Tj
+1 0 0 1 42 535.0 Tm () Tj
+1 0 0 1 42 522.5 Tm (Backend Responsibility Map) Tj
+1 0 0 1 42 510.0 Tm (--------------------------) Tj
+1 0 0 1 42 497.5 Tm (backend/app/api/v1/auth.py: register/login/me and role context.) Tj
+1 0 0 1 42 485.0 Tm () Tj
+1 0 0 1 42 472.5 Tm (backend/app/api/v1/resume.py: upload/parse/persist resume structures.) Tj
+1 0 0 1 42 460.0 Tm () Tj
+1 0 0 1 42 447.5 Tm (backend/app/api/v1/assessment.py: execute/score assessment and finalize candidate recommendation state.) Tj
+1 0 0 1 42 435.0 Tm () Tj
+1 0 0 1 42 422.5 Tm (backend/app/api/v1/telemetry.py: ingest and retrieve proctoring event records.) Tj
+1 0 0 1 42 410.0 Tm () Tj
+1 0 0 1 42 397.5 Tm (backend/app/api/v1/dashboard.py: recruiter aggregate APIs, status updates, baseline summary exposure.) Tj
+1 0 0 1 42 385.0 Tm () Tj
+1 0 0 1 42 372.5 Tm (backend/app/services/zone_parser.py: section extraction and scoped experience estimation.) Tj
+1 0 0 1 42 360.0 Tm () Tj
+1 0 0 1 42 347.5 Tm (backend/app/services/glass_box.py: AI prompting, response parsing, fallback rules, confidence handling.) Tj
+1 0 0 1 42 335.0 Tm () Tj
+1 0 0 1 42 322.5 Tm (backend/app/services/baseline.py: role baseline configuration and dynamic checklist status logic.) Tj
+1 0 0 1 42 310.0 Tm () Tj
+1 0 0 1 42 297.5 Tm () Tj
+1 0 0 1 42 285.0 Tm (Data Coupling Notes) Tj
+1 0 0 1 42 272.5 Tm (-------------------) Tj
+1 0 0 1 42 260.0 Tm (CandidateDetail endpoint is intentionally rich; it serves most recruiter detail requirements in one call) Tj
+1 0 0 1 42 247.5 Tm (to reduce frontend chattiness.) Tj
+1 0 0 1 42 235.0 Tm () Tj
+1 0 0 1 42 222.5 Tm (Assessment complete endpoint is the key transaction boundary where final scoring and recommendation) Tj
+1 0 0 1 42 210.0 Tm (state are synchronized.) Tj
+1 0 0 1 42 197.5 Tm () Tj
+1 0 0 1 42 185.0 Tm (Telemetry writes are decoupled from assessment submits to preserve stream-like event logging.) Tj
+1 0 0 1 42 172.5 Tm () Tj
+1 0 0 1 42 160.0 Tm () Tj
+1 0 0 1 42 147.5 Tm (Operational Advice) Tj
+1 0 0 1 42 135.0 Tm (------------------) Tj
+1 0 0 1 42 122.5 Tm (For debugging recommendation drift, inspect: candidate.resume_parsed_data, submission pass counts,) Tj
+1 0 0 1 42 110.0 Tm (integrity event counts, and baseline summary in candidate detail payload.) Tj
+1 0 0 1 42 97.5 Tm () Tj
+1 0 0 1 42 85.0 Tm (For demo reliability, prioritize deterministic event paths and avoid dependence on device-specific) Tj
+1 0 0 1 42 72.5 Tm (camera behavior.) Tj
+1 0 0 1 42 60.0 Tm () Tj
+1 0 0 1 42 47.5 Tm () Tj
+1 0 0 1 502 24 Tm (Page 1 of 1) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+4063
+%%EOF

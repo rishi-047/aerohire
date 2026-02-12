@@ -1,0 +1,117 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3434 >>
+stream
+BT
+/F1 9.5 Tf
+0 g
+1 0 0 1 42 760 Tm (08 DEMO RUNBOOK - HIRE REVIEW NO_HIRE) Tj
+1 0 0 1 42 747.5 Tm (=====================================) Tj
+1 0 0 1 42 735.0 Tm () Tj
+1 0 0 1 42 722.5 Tm (Pre-Demo Preparation) Tj
+1 0 0 1 42 710.0 Tm (--------------------) Tj
+1 0 0 1 42 697.5 Tm (1. Confirm frontend and backend are reachable.) Tj
+1 0 0 1 42 685.0 Tm () Tj
+1 0 0 1 42 672.5 Tm (2. Keep recruiter dashboard pre-opened in separate tab/session.) Tj
+1 0 0 1 42 660.0 Tm () Tj
+1 0 0 1 42 647.5 Tm (3. Use prepared resumes in /Demo folder for deterministic parser output.) Tj
+1 0 0 1 42 635.0 Tm () Tj
+1 0 0 1 42 622.5 Tm (4. Use fresh candidate accounts or clean admin reset to avoid stale telemetry/submissions.) Tj
+1 0 0 1 42 610.0 Tm () Tj
+1 0 0 1 42 597.5 Tm () Tj
+1 0 0 1 42 585.0 Tm (Scenario A - HIRE \(Syed Abdullah\)) Tj
+1 0 0 1 42 572.5 Tm (---------------------------------) Tj
+1 0 0 1 42 560.0 Tm (Resume: /Demo/Syed_Abdullah_HIRE_Resume.pdf) Tj
+1 0 0 1 42 547.5 Tm () Tj
+1 0 0 1 42 535.0 Tm (Assessment steps: pass Q1 and Q2, answer Q3 strongly, submit meaningful Q4 response, keep integrity) Tj
+1 0 0 1 42 522.5 Tm (events minimal.) Tj
+1 0 0 1 42 510.0 Tm () Tj
+1 0 0 1 42 497.5 Tm (Expected recruiter output: high technical and behavioral scores, acceptable integrity, baseline mostly) Tj
+1 0 0 1 42 485.0 Tm (met, recommendation HIRE.) Tj
+1 0 0 1 42 472.5 Tm () Tj
+1 0 0 1 42 460.0 Tm () Tj
+1 0 0 1 42 447.5 Tm (Scenario B - REVIEW \(Aarya Rishi Mondal\)) Tj
+1 0 0 1 42 435.0 Tm (----------------------------------------) Tj
+1 0 0 1 42 422.5 Tm (Resume: /Demo/Aarya_Rishi_Mondal_REVIEW_Resume.pdf) Tj
+1 0 0 1 42 410.0 Tm () Tj
+1 0 0 1 42 397.5 Tm (Assessment steps: strong coding performance but leave behavioral signal incomplete or mixed.) Tj
+1 0 0 1 42 385.0 Tm () Tj
+1 0 0 1 42 372.5 Tm (Expected recruiter output: technical strong, psychometric weak/incomplete, baseline partial,) Tj
+1 0 0 1 42 360.0 Tm (recommendation REVIEW.) Tj
+1 0 0 1 42 347.5 Tm () Tj
+1 0 0 1 42 335.0 Tm () Tj
+1 0 0 1 42 322.5 Tm (Scenario C - NO_HIRE \(Aradhya Dutta\)) Tj
+1 0 0 1 42 310.0 Tm (------------------------------------) Tj
+1 0 0 1 42 297.5 Tm (Resume: /Demo/Aradhya_Dutta_NO_HIRE_Resume.pdf) Tj
+1 0 0 1 42 285.0 Tm () Tj
+1 0 0 1 42 272.5 Tm (Assessment steps: intentionally trigger repeated deterministic integrity events \(tab-switch pattern\).) Tj
+1 0 0 1 42 260.0 Tm () Tj
+1 0 0 1 42 247.5 Tm (Expected recruiter output: integrity score drop and risk amplification, recommendation NO_HIRE even if) Tj
+1 0 0 1 42 235.0 Tm (some technical portions are adequate.) Tj
+1 0 0 1 42 222.5 Tm () Tj
+1 0 0 1 42 210.0 Tm () Tj
+1 0 0 1 42 197.5 Tm (Narration Script \(Concise\)) Tj
+1 0 0 1 42 185.0 Tm (--------------------------) Tj
+1 0 0 1 42 172.5 Tm (Part 1: "We ingest structured resume data and run multi-stage assessment.") Tj
+1 0 0 1 42 160.0 Tm () Tj
+1 0 0 1 42 147.5 Tm (Part 2: "We do not rely on a single score. We merge technical, behavioral, integrity, and baseline) Tj
+1 0 0 1 42 135.0 Tm (policy signals.") Tj
+1 0 0 1 42 122.5 Tm () Tj
+1 0 0 1 42 110.0 Tm (Part 3: "Each recommendation is evidence-linked and can be audited by recruiters.") Tj
+1 0 0 1 42 97.5 Tm () Tj
+1 0 0 1 42 85.0 Tm (Part 4: "Candidate-facing communication remains transparent through decision notes and status timeline.") Tj
+1 0 0 1 42 72.5 Tm () Tj
+1 0 0 1 42 60.0 Tm () Tj
+1 0 0 1 42 47.5 Tm (Fallback Plan) Tj
+1 0 0 1 502 24 Tm (Page 1 of 2) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 518 >>
+stream
+BT
+/F1 9.5 Tf
+0 g
+1 0 0 1 42 760 Tm (-------------) Tj
+1 0 0 1 42 747.5 Tm (If camera anomalies do not trigger consistently, use tab-switch and paste telemetry for deterministic) Tj
+1 0 0 1 42 735.0 Tm (integrity demonstration.) Tj
+1 0 0 1 42 722.5 Tm () Tj
+1 0 0 1 42 710.0 Tm (If model output is unavailable, explicitly show fallback behavior and explain why this improves) Tj
+1 0 0 1 42 697.5 Tm (operational reliability.) Tj
+1 0 0 1 42 685.0 Tm () Tj
+1 0 0 1 42 672.5 Tm () Tj
+1 0 0 1 502 24 Tm (Page 2 of 2) Tj
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000317 00000 n 
+0000003803 00000 n 
+0000003929 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+4498
+%%EOF
