@@ -1,7 +1,11 @@
 import axios, { type AxiosError, type InternalAxiosRequestConfig } from 'axios';
 
 // API Base URL - FastAPI backend (env-driven for deployment)
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api/v1';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || (
+  import.meta.env.PROD
+    ? 'https://aerohire-backend.onrender.com/api/v1'
+    : 'http://localhost:8000/api/v1'
+);
 const ADMIN_SECRET = import.meta.env.VITE_ADMIN_SECRET || 'aerohire-internal-ops-2026';
 
 // LocalStorage key for JWT token
