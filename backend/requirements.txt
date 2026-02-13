@@ -17,6 +17,7 @@ python-multipart==0.0.9
 # Authentication
 pyjwt==2.8.0
 passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
 
 # Docker SDK (for sandbox code execution)
 docker==7.0.0
